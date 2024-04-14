@@ -35,11 +35,24 @@
             </a>
 
             <!--Hamburger Icon-->
-            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+            <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none">
                 <span class="hamburger-top"></span>
                 <span class="hamburger-middle"></span>
                 <span class="hamburger-bottom"></span>
             </button>
+        </div>
+
+
+        <!--Mobile Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute hidden flex-col  items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#" class="hover:text-darkGrayBlue">Pricing</a>
+                <a href="#" class="hover:text-darkGrayBlue">Product</a>
+                <a href="#" class="hover:text-darkGrayBlue">About Us</a>
+                <a href="#" class="hover:text-darkGrayBlue">Careers</a>
+                <a href="#" class="hover:text-darkGrayBlue">Community</a>
+            </div>
         </div>
     </nav>
 
@@ -318,6 +331,9 @@
             </div>
         </div>
     </footer>
+
+    <!--Scripts-->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
