@@ -620,6 +620,10 @@ video {
   margin-top: -3.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -646,6 +650,10 @@ video {
 
 .max-w-6xl {
   max-width: 72rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .grow {
@@ -728,6 +736,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(8rem * var(--tw-space-x-reverse));
   margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-full {
@@ -886,6 +900,11 @@ video {
 .hover\:text-brightRed:hover {
   --tw-text-opacity: 1;
   color: hsl(12 88% 59% / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @media (min-width: 768px) {

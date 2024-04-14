@@ -33,6 +33,13 @@
                 class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
                 Get Started
             </a>
+
+            <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
     </nav>
 
@@ -243,6 +250,10 @@
             <!--Logo and social links container-->
             <div
                 class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+
+                <div class="mx-auto my-6 text-center text-white md:hidden">
+                    <p>&copy; 2024 Manage. All rights reserved.</p>
+                </div>
                 <!--Logo-->
                 <div class="pt-2">
                     <img src="img/logo-white.svg" alt="" class="h-8" />
@@ -286,6 +297,23 @@
                     <a href="#" class="hover:text-brightRed">Careers</a>
                     <a href="#" class="hover:text-brightRed">Community</a>
                     <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+                </div>
+            </div>
+
+            <!--Input Container-->
+            <div class="flex flex-col justify-between">
+                <form>
+                    <div class="flex space-x-3">
+                        <input type="text" class="flex-1 px-4 rounded-full focus:outline-none"
+                            placeholder="Updates in your inbox" />
+                        <button type="submit"
+                            class=" px-6 py-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight focus:outline-none">
+                            Go
+                        </button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block">
+                    <p>&copy; 2024 Manage. All rights reserved.</p>
                 </div>
             </div>
         </div>
